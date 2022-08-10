@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Infrastructure.Common.Implementation
 {
-    internal class ReadingInstanceRepository
+    internal class RepositoryReadingInstance
     {
     }
 }
