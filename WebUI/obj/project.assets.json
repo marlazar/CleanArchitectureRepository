@@ -37,6 +37,19 @@
         "runtime": {
           "bin/placeholder/Infrastructure.dll": {}
         }
+      },
+      "Presentation/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Application": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Presentation.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Presentation.dll": {}
+        }
       }
     }
   },
@@ -55,12 +68,18 @@
       "type": "project",
       "path": "../Infrastructure/Infrastructure.csproj",
       "msbuildProject": "../Infrastructure/Infrastructure.csproj"
+    },
+    "Presentation/1.0.0": {
+      "type": "project",
+      "path": "../Presentation/Presentation.csproj",
+      "msbuildProject": "../Presentation/Presentation.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "Application >= 1.0.0",
-      "Infrastructure >= 1.0.0"
+      "Infrastructure >= 1.0.0",
+      "Presentation >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -95,6 +114,9 @@
             },
             "C:\\Users\\Lazar\\Desktop\\CleanArchitecture\\CleanArchitectureRepository\\Infrastructure\\Infrastructure.csproj": {
               "projectPath": "C:\\Users\\Lazar\\Desktop\\CleanArchitecture\\CleanArchitectureRepository\\Infrastructure\\Infrastructure.csproj"
+            },
+            "C:\\Users\\Lazar\\Desktop\\CleanArchitecture\\CleanArchitectureRepository\\Presentation\\Presentation.csproj": {
+              "projectPath": "C:\\Users\\Lazar\\Desktop\\CleanArchitecture\\CleanArchitectureRepository\\Presentation\\Presentation.csproj"
             }
           }
         }
